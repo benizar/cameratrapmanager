@@ -139,56 +139,56 @@ namespace CameratrapManager
 									this.toolStripSeparator1,
 									this.exitProgramToolStripMenuItem});
 			this.projectToolStripMenuItem.Name = "projectToolStripMenuItem";
-			this.projectToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
+			this.projectToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
 			this.projectToolStripMenuItem.Text = "Project";
 			// 
 			// newProjectToolStripMenuItem
 			// 
 			this.newProjectToolStripMenuItem.Name = "newProjectToolStripMenuItem";
-			this.newProjectToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+			this.newProjectToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
 			this.newProjectToolStripMenuItem.Text = "New project";
 			this.newProjectToolStripMenuItem.Click += new System.EventHandler(this.NewProjectToolStripMenuItemClick);
 			// 
 			// existingProjectToolStripMenuItem
 			// 
 			this.existingProjectToolStripMenuItem.Name = "existingProjectToolStripMenuItem";
-			this.existingProjectToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+			this.existingProjectToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
 			this.existingProjectToolStripMenuItem.Text = "Existing project";
 			this.existingProjectToolStripMenuItem.Click += new System.EventHandler(this.ExistingProjectToolStripMenuItemClick);
 			// 
 			// toolStripSeparator3
 			// 
 			this.toolStripSeparator3.Name = "toolStripSeparator3";
-			this.toolStripSeparator3.Size = new System.Drawing.Size(156, 6);
+			this.toolStripSeparator3.Size = new System.Drawing.Size(151, 6);
 			// 
 			// saveProjectToolStripMenuItem
 			// 
 			this.saveProjectToolStripMenuItem.Name = "saveProjectToolStripMenuItem";
-			this.saveProjectToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+			this.saveProjectToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
 			this.saveProjectToolStripMenuItem.Text = "Save project";
 			this.saveProjectToolStripMenuItem.Click += new System.EventHandler(this.SaveProjectToolStripMenuItemClick);
 			// 
 			// toolStripSeparator2
 			// 
 			this.toolStripSeparator2.Name = "toolStripSeparator2";
-			this.toolStripSeparator2.Size = new System.Drawing.Size(156, 6);
+			this.toolStripSeparator2.Size = new System.Drawing.Size(151, 6);
 			// 
 			// closeProjectToolStripMenuItem
 			// 
 			this.closeProjectToolStripMenuItem.Name = "closeProjectToolStripMenuItem";
-			this.closeProjectToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+			this.closeProjectToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
 			this.closeProjectToolStripMenuItem.Text = "Close project";
 			this.closeProjectToolStripMenuItem.Click += new System.EventHandler(this.CloseProjectToolStripMenuItemClick);
 			// 
 			// toolStripSeparator1
 			// 
 			this.toolStripSeparator1.Name = "toolStripSeparator1";
-			this.toolStripSeparator1.Size = new System.Drawing.Size(156, 6);
+			this.toolStripSeparator1.Size = new System.Drawing.Size(151, 6);
 			// 
 			// exitProgramToolStripMenuItem
 			// 
 			this.exitProgramToolStripMenuItem.Name = "exitProgramToolStripMenuItem";
-			this.exitProgramToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+			this.exitProgramToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
 			this.exitProgramToolStripMenuItem.Text = "Exit program";
 			this.exitProgramToolStripMenuItem.Click += new System.EventHandler(this.ExitProgramToolStripMenuItemClick);
 			// 
@@ -199,27 +199,27 @@ namespace CameratrapManager
 									this.tsbRemoveStation,
 									this.tsbSelectStationImage});
 			this.cameraStationsToolStripMenuItem.Name = "cameraStationsToolStripMenuItem";
-			this.cameraStationsToolStripMenuItem.Size = new System.Drawing.Size(98, 20);
+			this.cameraStationsToolStripMenuItem.Size = new System.Drawing.Size(105, 20);
 			this.cameraStationsToolStripMenuItem.Text = "Camera Stations";
 			// 
 			// loadStationToolStripMenuItem
 			// 
 			this.loadStationToolStripMenuItem.Name = "loadStationToolStripMenuItem";
-			this.loadStationToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+			this.loadStationToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
 			this.loadStationToolStripMenuItem.Text = "New station";
 			this.loadStationToolStripMenuItem.Click += new System.EventHandler(this.NewStationToolStripMenuItemClick);
 			// 
 			// tsbRemoveStation
 			// 
 			this.tsbRemoveStation.Name = "tsbRemoveStation";
-			this.tsbRemoveStation.Size = new System.Drawing.Size(183, 22);
+			this.tsbRemoveStation.Size = new System.Drawing.Size(180, 22);
 			this.tsbRemoveStation.Text = "Remove station";
 			this.tsbRemoveStation.Click += new System.EventHandler(this.tsbRemoveStationClick);
 			// 
 			// tsbSelectStationImage
 			// 
 			this.tsbSelectStationImage.Name = "tsbSelectStationImage";
-			this.tsbSelectStationImage.Size = new System.Drawing.Size(183, 22);
+			this.tsbSelectStationImage.Size = new System.Drawing.Size(180, 22);
 			this.tsbSelectStationImage.Text = "Select station Image";
 			this.tsbSelectStationImage.Click += new System.EventHandler(this.TsbSelectStationImageClick);
 			// 
@@ -229,20 +229,20 @@ namespace CameratrapManager
 									this.uploadSamplesToStationToolStripMenuItem,
 									this.removeCurrentSampleToolStripMenuItem});
 			this.photoSamplesToolStripMenuItem.Name = "photoSamplesToolStripMenuItem";
-			this.photoSamplesToolStripMenuItem.Size = new System.Drawing.Size(89, 20);
+			this.photoSamplesToolStripMenuItem.Size = new System.Drawing.Size(98, 20);
 			this.photoSamplesToolStripMenuItem.Text = "Photo Samples";
 			// 
 			// uploadSamplesToStationToolStripMenuItem
 			// 
 			this.uploadSamplesToStationToolStripMenuItem.Name = "uploadSamplesToStationToolStripMenuItem";
-			this.uploadSamplesToStationToolStripMenuItem.Size = new System.Drawing.Size(246, 22);
+			this.uploadSamplesToStationToolStripMenuItem.Size = new System.Drawing.Size(252, 22);
 			this.uploadSamplesToStationToolStripMenuItem.Text = "Upload samples to current station";
 			this.uploadSamplesToStationToolStripMenuItem.Click += new System.EventHandler(this.tsbUploadSamplesClick);
 			// 
 			// removeCurrentSampleToolStripMenuItem
 			// 
 			this.removeCurrentSampleToolStripMenuItem.Name = "removeCurrentSampleToolStripMenuItem";
-			this.removeCurrentSampleToolStripMenuItem.Size = new System.Drawing.Size(246, 22);
+			this.removeCurrentSampleToolStripMenuItem.Size = new System.Drawing.Size(252, 22);
 			this.removeCurrentSampleToolStripMenuItem.Text = "Remove current sample";
 			this.removeCurrentSampleToolStripMenuItem.Click += new System.EventHandler(this.tsbRemoveSampleClick);
 			// 
@@ -253,7 +253,7 @@ namespace CameratrapManager
 									this.tsbCompletePDF,
 									this.tsbCreateAbundancesShapefiles});
 			this.reportsToolStripMenuItem.Name = "reportsToolStripMenuItem";
-			this.reportsToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
+			this.reportsToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
 			this.reportsToolStripMenuItem.Text = "Reports";
 			// 
 			// tsbDataToExcel
@@ -319,33 +319,33 @@ namespace CameratrapManager
 									this.cntxtsbRemoveSample,
 									this.cntxtsbUploadSamples});
 			this.cmsTreeView.Name = "cmsTreeView";
-			this.cmsTreeView.Size = new System.Drawing.Size(211, 92);
+			this.cmsTreeView.Size = new System.Drawing.Size(214, 92);
 			// 
 			// ctxtsbAddStationImage
 			// 
 			this.ctxtsbAddStationImage.Name = "ctxtsbAddStationImage";
-			this.ctxtsbAddStationImage.Size = new System.Drawing.Size(210, 22);
+			this.ctxtsbAddStationImage.Size = new System.Drawing.Size(213, 22);
 			this.ctxtsbAddStationImage.Text = "Select Station Image";
 			this.ctxtsbAddStationImage.Click += new System.EventHandler(this.CtxtsbSelectStationImageClick);
 			// 
 			// ctxtsbRemoveStation
 			// 
 			this.ctxtsbRemoveStation.Name = "ctxtsbRemoveStation";
-			this.ctxtsbRemoveStation.Size = new System.Drawing.Size(210, 22);
+			this.ctxtsbRemoveStation.Size = new System.Drawing.Size(213, 22);
 			this.ctxtsbRemoveStation.Text = "Remove Station";
 			this.ctxtsbRemoveStation.Click += new System.EventHandler(this.CtxtsbRemoveStationClick);
 			// 
 			// cntxtsbRemoveSample
 			// 
 			this.cntxtsbRemoveSample.Name = "cntxtsbRemoveSample";
-			this.cntxtsbRemoveSample.Size = new System.Drawing.Size(210, 22);
+			this.cntxtsbRemoveSample.Size = new System.Drawing.Size(213, 22);
 			this.cntxtsbRemoveSample.Text = "Remove Sample";
 			this.cntxtsbRemoveSample.Click += new System.EventHandler(this.CntxtsbRemoveSampleClick);
 			// 
 			// cntxtsbUploadSamples
 			// 
 			this.cntxtsbUploadSamples.Name = "cntxtsbUploadSamples";
-			this.cntxtsbUploadSamples.Size = new System.Drawing.Size(210, 22);
+			this.cntxtsbUploadSamples.Size = new System.Drawing.Size(213, 22);
 			this.cntxtsbUploadSamples.Text = "Upload Samples to Station";
 			this.cntxtsbUploadSamples.Click += new System.EventHandler(this.cntxttbUploadSamplesClick);
 			// 
@@ -577,8 +577,8 @@ namespace CameratrapManager
 			this.dgvSelectSpecies.RowTemplate.Height = 30;
 			this.dgvSelectSpecies.Size = new System.Drawing.Size(116, 240);
 			this.dgvSelectSpecies.TabIndex = 26;
-			this.dgvSelectSpecies.UserDeletedRow += new System.Windows.Forms.DataGridViewRowEventHandler(this.DgvSelectSpeciesUserDeletedRow);
 			this.dgvSelectSpecies.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvSelectSpeciesClick);
+			this.dgvSelectSpecies.UserDeletedRow += new System.Windows.Forms.DataGridViewRowEventHandler(this.DgvSelectSpeciesUserDeletedRow);
 			// 
 			// cmbSelectSpecies
 			// 
@@ -682,7 +682,7 @@ namespace CameratrapManager
 			// txtProcessStatus
 			// 
 			this.txtProcessStatus.Name = "txtProcessStatus";
-			this.txtProcessStatus.Size = new System.Drawing.Size(81, 17);
+			this.txtProcessStatus.Size = new System.Drawing.Size(84, 17);
 			this.txtProcessStatus.Text = "Process status:";
 			// 
 			// toolStripProgressBar1
@@ -693,7 +693,7 @@ namespace CameratrapManager
 			// txtProcessStatus2
 			// 
 			this.txtProcessStatus2.Name = "txtProcessStatus2";
-			this.txtProcessStatus2.Size = new System.Drawing.Size(56, 17);
+			this.txtProcessStatus2.Size = new System.Drawing.Size(60, 17);
 			this.txtProcessStatus2.Text = "Image x/X";
 			// 
 			// MainForm
@@ -705,12 +705,13 @@ namespace CameratrapManager
 			this.Controls.Add(this.msMain);
 			this.Controls.Add(this.toolStripContainer1);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.MainMenuStrip = this.msMain;
 			this.Name = "MainForm";
 			this.Text = "CameratrapManager";
 			this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-			this.Load += new System.EventHandler(this.MainFormLoad);
 			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainFormFormClosing);
+			this.Load += new System.EventHandler(this.MainFormLoad);
 			this.msMain.ResumeLayout(false);
 			this.msMain.PerformLayout();
 			this.splitContainer1.Panel1.ResumeLayout(false);
