@@ -689,12 +689,13 @@ namespace CameratrapManager
 			// 
 			this.toolStripProgressBar1.Name = "toolStripProgressBar1";
 			this.toolStripProgressBar1.Size = new System.Drawing.Size(100, 16);
+			this.toolStripProgressBar1.Click += new System.EventHandler(this.ToolStripProgressBar1Click);
 			// 
 			// txtProcessStatus2
 			// 
 			this.txtProcessStatus2.Name = "txtProcessStatus2";
-			this.txtProcessStatus2.Size = new System.Drawing.Size(60, 17);
-			this.txtProcessStatus2.Text = "Image x/X";
+			this.txtProcessStatus2.Size = new System.Drawing.Size(84, 17);
+			this.txtProcessStatus2.Text = "Image 20/1252";
 			// 
 			// MainForm
 			// 

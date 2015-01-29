@@ -116,20 +116,20 @@ namespace CameratrapManager
 		
 		void EnableButtons()
 		{
-				cmsTreeView.Enabled=true;
-				btEmpty.Enabled=true;
-				btInvalid.Enabled=true;
-				btManagement.Enabled=true;
-				btUnknown.Enabled=true;
-				
-				cmbSelectSpecies.Enabled=true;
-				
-				saveProjectToolStripMenuItem.Enabled=true;
-				closeProjectToolStripMenuItem.Enabled=true;
-				
-				cameraStationsToolStripMenuItem.Enabled=true;
-				photoSamplesToolStripMenuItem.Enabled=true;
-				reportsToolStripMenuItem.Enabled=true;
+			cmsTreeView.Enabled=true;
+			btEmpty.Enabled=true;
+			btInvalid.Enabled=true;
+			btManagement.Enabled=true;
+			btUnknown.Enabled=true;
+			
+			cmbSelectSpecies.Enabled=true;
+			
+			saveProjectToolStripMenuItem.Enabled=true;
+			closeProjectToolStripMenuItem.Enabled=true;
+			
+			cameraStationsToolStripMenuItem.Enabled=true;
+			photoSamplesToolStripMenuItem.Enabled=true;
+			reportsToolStripMenuItem.Enabled=true;
 		}
 		
 		#endregion
@@ -247,6 +247,7 @@ namespace CameratrapManager
 		}
 		
 		
+		
 		void SelectStationImage()
 		{
 			try {
@@ -259,8 +260,13 @@ namespace CameratrapManager
 					
 					if(selectMainPictureDialog.ShowDialog() == DialogResult.OK)
 					{
-
-						ProjectDAO.InsertImage(_currentProject.Name, _currentStation.Guid, ConversionUtilities.ImageToBase64(Main_processing.ResizeImage(Image.FromFile(selectMainPictureDialog.FileName)), System.Drawing.Imaging.ImageFormat.Jpeg));
+						
+						using (FileStream stream = new FileStream(selectMainPictureDialog.FileName, FileMode.Open, FileAccess.Read))
+						{
+							
+							ProjectDAO.InsertImage(_currentProject.Name, _currentStation.Guid, ConversionUtilities.ImageToBase64(Main_processing.ResizeImage(Image.FromStream(stream)), System.Drawing.Imaging.ImageFormat.Jpeg));
+						}
+						
 						_currentStation.MetadataFromImage(selectMainPictureDialog.FileName);
 						
 						pictureBox1.Image= CameratrapManager_db.ProjectDAO.GetCurrentImage(_currentProject.Name,_currentStation.Guid);
@@ -271,6 +277,7 @@ namespace CameratrapManager
 						//Must solve the update node after select station image
 //	   					UpdateCurrentNodeTree();
 						refreshViewData(_currentStation);
+						
 						
 					}
 					else
@@ -1213,5 +1220,10 @@ namespace CameratrapManager
 		
 		
 
+		
+		void ToolStripProgressBar1Click(object sender, EventArgs e)
+		{
+			
+		}
 	}
 }
