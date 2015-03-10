@@ -102,9 +102,9 @@
       <Project>{540E9A09-F5FE-47DD-9F28-AF9A6E98DD01}</Project>
       <Name>CameratrapManager.DAO</Name>
     </ProjectReference>
-    <ProjectReference Include="..\CameratrapManager_lib\CameratrapManager.Image.csproj">
+    <ProjectReference Include="..\CameratrapManager_lib\CameratrapManager.ImageProcessing.csproj">
       <Project>{4BFF1929-9703-4FB2-903A-CAEC311C4592}</Project>
-      <Name>CameratrapManager.Image</Name>
+      <Name>CameratrapManager.ImageProcessing</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>

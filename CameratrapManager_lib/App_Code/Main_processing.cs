@@ -24,7 +24,7 @@ using System.Drawing.Imaging;
 using AForge.Imaging.Filters;
 using AForge.Imaging;
 
-namespace CameratrapManager.Image
+namespace CameratrapManager.ImageProcessing
 {
 	/// <summary>
 	/// Description of Main_processing.

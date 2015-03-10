@@ -63,9 +63,9 @@
     <EmbeddedResource Include="Resources\Images.resx" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CameratrapManager_lib\CameratrapManager.Image.csproj">
+    <ProjectReference Include="..\CameratrapManager_lib\CameratrapManager.ImageProcessing.csproj">
       <Project>{4BFF1929-9703-4FB2-903A-CAEC311C4592}</Project>
-      <Name>CameratrapManager.Image</Name>
+      <Name>CameratrapManager.ImageProcessing</Name>
     </ProjectReference>
     <Folder Include="App_Code" />
     <Folder Include="Resources" />

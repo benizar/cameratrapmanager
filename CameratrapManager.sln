@@ -6,7 +6,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameratrapManager.GUI", "Ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameratrapManager.DAO", "CameratrapManager_db\CameratrapManager.DAO.csproj", "{540E9A09-F5FE-47DD-9F28-AF9A6E98DD01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameratrapManager.Image", "CameratrapManager_lib\CameratrapManager.Image.csproj", "{4BFF1929-9703-4FB2-903A-CAEC311C4592}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameratrapManager.ImageProcessing", "CameratrapManager_lib\CameratrapManager.ImageProcessing.csproj", "{4BFF1929-9703-4FB2-903A-CAEC311C4592}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameratrapManager.Analysis", "Cameratrap.Analysis\CameratrapManager.Analysis.csproj", "{ABDC8B73-F164-4589-A0D8-BD8606405021}"
 EndProject
