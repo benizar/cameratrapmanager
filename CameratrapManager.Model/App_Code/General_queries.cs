@@ -19,13 +19,10 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-
-using CameratrapManager.Model;
+using CameratrapManager.Model.Queries;
 using CameratrapManager.Model.SampleObservations;
-using CameratrapManager.Analysis.Queries;
 
-
-namespace CameratrapManager_lib.Analysis
+namespace CameratrapManager.Model
 {
 	/// <summary>
 	/// Description of Project_queries.

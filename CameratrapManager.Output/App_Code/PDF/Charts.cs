@@ -25,7 +25,7 @@ using MigraDoc.DocumentObjectModel.Shapes.Charts;
 
 using CameratrapManager.Model;
 using CameratrapManager.Analysis;
-using CameratrapManager.Analysis.Queries;
+using CameratrapManager.Model.Queries;
 //using CameratrapManager_lib.CameratrapModel.SampleObservations;
 
 namespace CameratrapManager.Output.PDF

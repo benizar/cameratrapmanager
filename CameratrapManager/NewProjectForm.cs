@@ -21,10 +21,10 @@ using System.IO;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
-using CameratrapManager_lib.CameratrapModel;
-using CameratrapManager_db;
-using CameratrapManager_lib.DataEntry;
+using CameratrapManager.Model;
+using CameratrapManager.DAO;
 using GeoAPI.Geometries;
+using CameratrapManager.Shape;
 
 namespace CameratrapManager
 {

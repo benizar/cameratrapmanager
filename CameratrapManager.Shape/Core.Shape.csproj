@@ -1,11 +1,11 @@
 ﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <ProjectGuid>{FE6F40DA-9435-4702-80E7-106644E55320}</ProjectGuid>
+    <ProjectGuid>{BF129930-9050-4E0E-9499-3A8438BC7C81}</ProjectGuid>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <OutputType>Library</OutputType>
-    <RootNamespace>CameratrapManager.Carto</RootNamespace>
-    <AssemblyName>CameratrapManager.Carto</AssemblyName>
+    <RootNamespace>CameratrapManager.Shape</RootNamespace>
+    <AssemblyName>Core.Shape</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <SourceAnalysisOverrideSettingsFile>C:\Users\miguel\AppData\Roaming\ICSharpCode/SharpDevelop3.0\Settings.SourceAnalysis</SourceAnalysisOverrideSettingsFile>
@@ -39,22 +39,27 @@
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
   <ItemGroup>
+    <Reference Include="GeoAPI">
+      <HintPath>..\lib\NetTopologySuite_1.8.0.0\GeoAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="NetTopologySuite">
+      <HintPath>..\lib\NetTopologySuite_1.8.0.0\NetTopologySuite.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
+    <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_code\ConversionUtilities.cs" />
-    <Compile Include="App_code\GraticuleBuilder.cs" />
-    <Compile Include="App_code\Projections.cs" />
+    <Compile Include="App_Code\LoadShapefile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_code" />
+    <Folder Include="App_Code" />
   </ItemGroup>
 </Project>

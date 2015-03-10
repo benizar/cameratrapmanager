@@ -25,7 +25,7 @@ using GeoAPI.Geometries;
 
 using CameratrapManager.Model;
 using CameratrapManager.Analysis;
-using CameratrapManager.Analysis.Queries;
+using CameratrapManager.Model.Queries;
 
 
 
@@ -143,7 +143,7 @@ namespace CameratrapManager.Output
 				}
 				
 				List<IPoint>projPoints=new List<IPoint>();
-				projPoints = Utilities.Projections.projectGPSto23030(points);
+				projPoints = Carto.Projections.projectGPSto23030(points);
 				
 				
 				GeometryCollection gc=new GeometryCollection(projPoints.ToArray());

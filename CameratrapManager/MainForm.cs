@@ -23,14 +23,14 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
 
-using CameratrapManager_lib.ImageProcessing;
-using CameratrapManager_lib.CameratrapModel;
-using CameratrapManager_lib.OCR;
-using CameratrapManager_lib.CameratrapModel.SampleObservations;
-using CameratrapManager_lib.Utilities;
-using CameratrapManager_db;
-using CameratrapManager_lib.Reports;
-using CameratrapManager_lib.Analysis;
+using CameratrapManager.ImageProcessing;
+using CameratrapManager.Model;
+using CameratrapManager.OCR;
+using CameratrapManager.Model.SampleObservations;
+using CameratrapManager.Carto;
+using CameratrapManager.DAO;
+using CameratrapManager.Output;
+using CameratrapManager.Analysis;
 
 
 namespace CameratrapManager
@@ -269,7 +269,7 @@ namespace CameratrapManager
 						
 						_currentStation.MetadataFromImage(selectMainPictureDialog.FileName);
 						
-						pictureBox1.Image= CameratrapManager_db.ProjectDAO.GetCurrentImage(_currentProject.Name,_currentStation.Guid);
+						pictureBox1.Image= CameratrapManager.DAO.ProjectDAO.GetCurrentImage(_currentProject.Name,_currentStation.Guid);
 						
 						ProjectDAO.UpdateProject(_currentProject.Name,_currentProject);
 						
@@ -446,7 +446,7 @@ namespace CameratrapManager
 				if(tvProject.SelectedNode.Tag.GetType() == typeof(Station))
 				{
 					_currentStation= (Station)tvProject.SelectedNode.Tag;
-					pictureBox1.Image= CameratrapManager_db.ProjectDAO.GetCurrentImage(_currentProject.Name,_currentStation.Guid);
+					pictureBox1.Image= CameratrapManager.DAO.ProjectDAO.GetCurrentImage(_currentProject.Name,_currentStation.Guid);
 					
 					
 					refreshViewData(_currentStation);
@@ -457,7 +457,7 @@ namespace CameratrapManager
 					_currentSample=(Sample)tvProject.SelectedNode.Tag;
 					_currentStation= (Station)tvProject.SelectedNode.Parent.Tag;
 					
-					pictureBox1.Image= CameratrapManager_db.ProjectDAO.GetCurrentImage(_currentProject.Name,_currentSample.Guid);
+					pictureBox1.Image= CameratrapManager.DAO.ProjectDAO.GetCurrentImage(_currentProject.Name,_currentSample.Guid);
 					
 					refreshViewData(_currentSample);
 				}

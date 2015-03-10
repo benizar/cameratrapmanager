@@ -24,7 +24,7 @@ using MigraDoc.DocumentObjectModel.Tables;
 
 using CameratrapManager.Model;
 using CameratrapManager.Analysis;
-using CameratrapManager.Analysis.Queries;
+using CameratrapManager.Model.Queries;
 
 
 namespace CameratrapManager.Output.PDF

@@ -39,6 +39,15 @@
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
   <ItemGroup>
+    <Reference Include="CameratrapManager.Carto">
+      <HintPath>C:\CameraTrapManager\bin\CameratrapManager.Carto.dll</HintPath>
+    </Reference>
+    <Reference Include="CameratrapManager.ImageProcessing">
+      <HintPath>C:\CameraTrapManager\bin\CameratrapManager.ImageProcessing.dll</HintPath>
+    </Reference>
+    <Reference Include="CameratrapManager.Model">
+      <HintPath>C:\CameraTrapManager\bin\CameratrapManager.Model.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
@@ -63,10 +72,6 @@
     <EmbeddedResource Include="Resources\Images.resx" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CameratrapManager_lib\CameratrapManager.ImageProcessing.csproj">
-      <Project>{4BFF1929-9703-4FB2-903A-CAEC311C4592}</Project>
-      <Name>CameratrapManager.ImageProcessing</Name>
-    </ProjectReference>
     <Folder Include="App_Code" />
     <Folder Include="Resources" />
   </ItemGroup>

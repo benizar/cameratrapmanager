@@ -39,13 +39,26 @@
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
   <ItemGroup>
+    <Reference Include="CameratrapManager.Carto">
+      <HintPath>C:\CameraTrapManager\bin\CameratrapManager.Carto.dll</HintPath>
+    </Reference>
+    <Reference Include="CameratrapManager.ImageProcessing">
+      <HintPath>C:\CameraTrapManager\bin\CameratrapManager.ImageProcessing.dll</HintPath>
+    </Reference>
+    <Reference Include="Fotofly">
+      <HintPath>..\lib\FotoFly_0.6.0.0\Fotofly.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="tessnet2_32">
+      <HintPath>..\lib\Tessnet_2.0.4.0\tessnet2_32.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -22,6 +22,7 @@ using System.Drawing;
 using System.Collections;
 using System.Collections.Generic;
 using CameratrapManager.Model.SampleObservations;
+using CameratrapManager.Analysis;
 
 namespace CameratrapManager.Model
 {

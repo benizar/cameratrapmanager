@@ -6,19 +6,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameratrapManager.GUI", "Ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameratrapManager.DAO", "CameratrapManager_db\CameratrapManager.DAO.csproj", "{540E9A09-F5FE-47DD-9F28-AF9A6E98DD01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameratrapManager.ImageProcessing", "CameratrapManager_lib\CameratrapManager.ImageProcessing.csproj", "{4BFF1929-9703-4FB2-903A-CAEC311C4592}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.ImageProcessing", "CameratrapManager_lib\Core.ImageProcessing.csproj", "{4BFF1929-9703-4FB2-903A-CAEC311C4592}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameratrapManager.Analysis", "Cameratrap.Analysis\CameratrapManager.Analysis.csproj", "{ABDC8B73-F164-4589-A0D8-BD8606405021}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Analysis", "Cameratrap.Analysis\Core.Analysis.csproj", "{ABDC8B73-F164-4589-A0D8-BD8606405021}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameratrapManager.Model", "CameratrapManager.Model\CameratrapManager.Model.csproj", "{7EADF2F8-BF46-43BA-B506-41733690CB6F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameratrapManager.OCR", "CameratrapManager.OCR\CameratrapManager.OCR.csproj", "{3C2E2B10-766F-4354-B49C-EC20719CA9C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameratrapManager.Shape", "CameratrapManager.Shape\CameratrapManager.Shape.csproj", "{BF129930-9050-4E0E-9499-3A8438BC7C81}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Shape", "CameratrapManager.Shape\Core.Shape.csproj", "{BF129930-9050-4E0E-9499-3A8438BC7C81}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameratrapManager.Output", "CameratrapManager.Output\CameratrapManager.Output.csproj", "{C6989473-1C4E-4B0C-AB85-46DEB194F760}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameratrapManager.Carto", "CameratrapManager.Carto\CameratrapManager.Carto.csproj", "{FE6F40DA-9435-4702-80E7-106644E55320}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Carto", "CameratrapManager.Carto\Core.Carto.csproj", "{FE6F40DA-9435-4702-80E7-106644E55320}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

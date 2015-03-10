@@ -39,6 +39,30 @@
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
   <ItemGroup>
+    <Reference Include="CameratrapManager.Analysis">
+      <HintPath>C:\CameraTrapManager\bin\CameratrapManager.Analysis.dll</HintPath>
+    </Reference>
+    <Reference Include="CameratrapManager.Carto">
+      <HintPath>C:\CameraTrapManager\bin\CameratrapManager.Carto.dll</HintPath>
+    </Reference>
+    <Reference Include="CameratrapManager.DAO">
+      <HintPath>C:\CameraTrapManager\bin\CameratrapManager.DAO.dll</HintPath>
+    </Reference>
+    <Reference Include="CameratrapManager.ImageProcessing">
+      <HintPath>C:\CameraTrapManager\bin\CameratrapManager.ImageProcessing.dll</HintPath>
+    </Reference>
+    <Reference Include="CameratrapManager.Model">
+      <HintPath>C:\CameraTrapManager\bin\CameratrapManager.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="CameratrapManager.OCR">
+      <HintPath>C:\CameraTrapManager\bin\CameratrapManager.OCR.dll</HintPath>
+    </Reference>
+    <Reference Include="CameratrapManager.Output">
+      <HintPath>C:\CameraTrapManager\bin\CameratrapManager.Output.dll</HintPath>
+    </Reference>
+    <Reference Include="CameratrapManager.Shape">
+      <HintPath>C:\CameraTrapManager\bin\CameratrapManager.Shape.dll</HintPath>
+    </Reference>
     <Reference Include="GeoAPI">
       <HintPath>..\lib\NetTopologySuite_1.8.0.0\GeoAPI.dll</HintPath>
     </Reference>
@@ -98,13 +122,5 @@
   <ItemGroup>
     <Folder Include="Resources" />
     <Folder Include="Utilities" />
-    <ProjectReference Include="..\CameratrapManager_db\CameratrapManager.DAO.csproj">
-      <Project>{540E9A09-F5FE-47DD-9F28-AF9A6E98DD01}</Project>
-      <Name>CameratrapManager.DAO</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\CameratrapManager_lib\CameratrapManager.ImageProcessing.csproj">
-      <Project>{4BFF1929-9703-4FB2-903A-CAEC311C4592}</Project>
-      <Name>CameratrapManager.ImageProcessing</Name>
-    </ProjectReference>
   </ItemGroup>
 </Project>

@@ -1,11 +1,11 @@
 ﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <ProjectGuid>{BF129930-9050-4E0E-9499-3A8438BC7C81}</ProjectGuid>
+    <ProjectGuid>{ABDC8B73-F164-4589-A0D8-BD8606405021}</ProjectGuid>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <OutputType>Library</OutputType>
-    <RootNamespace>CameratrapManager.Shape</RootNamespace>
-    <AssemblyName>CameratrapManager.Shape</AssemblyName>
+    <RootNamespace>Cameratrap.Analysis</RootNamespace>
+    <AssemblyName>Core.Analysis</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <SourceAnalysisOverrideSettingsFile>C:\Users\miguel\AppData\Roaming\ICSharpCode/SharpDevelop3.0\Settings.SourceAnalysis</SourceAnalysisOverrideSettingsFile>
@@ -49,7 +49,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Code\LoadShapefile.cs" />
+    <Compile Include="App_Code\MoonPhaseCalculations.cs" />
+    <Compile Include="App_Code\SunriseSunsetCalculations.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -142,8 +142,8 @@ namespace CameratrapManager.Model
 			//No standard in JpgPhoto class. We add references to PresentationCore and WindowsBase
 			//from .NET 3.0
 			WpfFileManager wpf = new WpfFileManager(image, false);
-			URational urational = wpf.BitmapMetadata.GetQuery<URational>(GpsQueries.ImgDirection.Query);
-			_compass=urational.ToDouble(3);
+			//URational urational = wpf.BitmapMetadata.GetQuery<URational>(GpsQueries.ImgDirection.Query);
+			//_compass=urational.ToDouble(3);
 		}
 		
 		

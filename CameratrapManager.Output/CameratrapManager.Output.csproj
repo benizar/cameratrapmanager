@@ -39,6 +39,30 @@
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
   <ItemGroup>
+    <Reference Include="CameratrapManager.Analysis">
+      <HintPath>C:\CameraTrapManager\bin\CameratrapManager.Analysis.dll</HintPath>
+    </Reference>
+    <Reference Include="CameratrapManager.Carto">
+      <HintPath>C:\CameraTrapManager\bin\CameratrapManager.Carto.dll</HintPath>
+    </Reference>
+    <Reference Include="CameratrapManager.Model">
+      <HintPath>C:\CameraTrapManager\bin\CameratrapManager.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="GeoAPI">
+      <HintPath>..\lib\NetTopologySuite_1.8.0.0\GeoAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="MigraDoc.DocumentObjectModel">
+      <HintPath>..\lib\PdfSharp_1.31.1789.0\MigraDoc.DocumentObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="MigraDoc.Rendering">
+      <HintPath>..\lib\PdfSharp_1.31.1789.0\MigraDoc.Rendering.dll</HintPath>
+    </Reference>
+    <Reference Include="NetTopologySuite">
+      <HintPath>..\lib\NetTopologySuite_1.8.0.0\NetTopologySuite.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp">
+      <HintPath>..\lib\PdfSharp_1.31.1789.0\PdfSharp.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>

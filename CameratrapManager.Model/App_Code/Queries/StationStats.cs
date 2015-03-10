@@ -19,7 +19,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace CameratrapManager_lib.Analysis.Queries
+namespace CameratrapManager.Model.Queries
 {
 	/// <summary>
 	/// Description of StationStats.

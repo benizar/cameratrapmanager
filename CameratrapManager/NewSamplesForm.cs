@@ -21,12 +21,12 @@ using System.IO;
 using System.Drawing;
 using System.Windows.Forms;
 
-using CameratrapManager_lib.CameratrapModel;
-using CameratrapManager_lib.CameratrapModel.SampleObservations;
-using CameratrapManager_lib.OCR;
-using CameratrapManager_db;
-using CameratrapManager_lib.ImageProcessing;
-using CameratrapManager_lib.Utilities;
+using CameratrapManager.Model;
+using CameratrapManager.Model.SampleObservations;
+using CameratrapManager.OCR;
+using CameratrapManager.DAO;
+using CameratrapManager.ImageProcessing;
+using CameratrapManager.Carto;
 
 namespace CameratrapManager
 {

@@ -1,11 +1,11 @@
 ﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <ProjectGuid>{ABDC8B73-F164-4589-A0D8-BD8606405021}</ProjectGuid>
+    <ProjectGuid>{FE6F40DA-9435-4702-80E7-106644E55320}</ProjectGuid>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <OutputType>Library</OutputType>
-    <RootNamespace>Cameratrap.Analysis</RootNamespace>
-    <AssemblyName>CameratrapManager.Analysis</AssemblyName>
+    <RootNamespace>CameratrapManager.Carto</RootNamespace>
+    <AssemblyName>Core.Carto</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <SourceAnalysisOverrideSettingsFile>C:\Users\miguel\AppData\Roaming\ICSharpCode/SharpDevelop3.0\Settings.SourceAnalysis</SourceAnalysisOverrideSettingsFile>
@@ -39,25 +39,32 @@
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
   <ItemGroup>
+    <Reference Include="GeoAPI">
+      <HintPath>..\lib\NetTopologySuite_1.8.0.0\GeoAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="NetTopologySuite">
+      <HintPath>..\lib\NetTopologySuite_1.8.0.0\NetTopologySuite.dll</HintPath>
+    </Reference>
+    <Reference Include="ProjNET">
+      <HintPath>..\lib\NetTopologySuite_1.8.0.0\ProjNET.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Code\General_queries.cs" />
-    <Compile Include="App_Code\MoonPhaseCalculations.cs" />
-    <Compile Include="App_Code\Queries\SpeciesStats.cs" />
-    <Compile Include="App_Code\Queries\StationStats.cs" />
-    <Compile Include="App_Code\SunriseSunsetCalculations.cs" />
+    <Compile Include="App_code\ConversionUtilities.cs" />
+    <Compile Include="App_code\GraticuleBuilder.cs" />
+    <Compile Include="App_code\Projections.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Code" />
-    <Folder Include="App_Code\Queries" />
+    <Folder Include="App_code" />
   </ItemGroup>
 </Project>

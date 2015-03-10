@@ -20,8 +20,8 @@ using System;
 using System.IO;
 using System.Drawing;
 using System.Windows.Forms;
-using CameratrapManager_lib.CameratrapModel;
-using CameratrapManager_db;
+using CameratrapManager.Model;
+using CameratrapManager.DAO;
 using CameratrapManager.Utilities;
 using GeoAPI.Geometries;
 

@@ -18,7 +18,7 @@
 
 using System;
 using System.Collections.Generic;
-using CameratrapManager_lib.CameratrapModel.SampleObservations;
+using CameratrapManager.Model.SampleObservations;
 
 using GeoAPI.Geometries;
 
@@ -123,7 +123,7 @@ namespace CameratrapManager.Model
 		
 		private void CreateGrid(List<IPolygon> bounds, int gridSize)
 		{
-			Utilities.GraticuleBuilder grid=new CameratrapManager_lib.Utilities.GraticuleBuilder(_studyArea,gridSize,gridSize);
+			CameratrapManager.Carto.GraticuleBuilder grid=new CameratrapManager.Carto.GraticuleBuilder(_studyArea,gridSize,gridSize);
 			_grid = grid.Graticule;
 		}
 		

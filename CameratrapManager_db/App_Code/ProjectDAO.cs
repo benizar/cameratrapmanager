@@ -23,7 +23,7 @@ using System.Collections.Generic;
 using System.Data.SQLite;
 using System.Resources;
 using CameratrapManager.ImageProcessing;
-using CameratrapManager.Utilities;
+using CameratrapManager.Carto;
 using CameratrapManager.Model;
 
 namespace CameratrapManager.DAO
