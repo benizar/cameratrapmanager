@@ -1,12 +1,24 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
-# SharpDevelop 3.2.0.5505
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameratrapManager", "CameratrapManager\CameratrapManager.csproj", "{CE1A118B-9869-4294-9C6B-E67DD726BAF5}"
+# SharpDevelop 3.2.1.6466
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameratrapManager.GUI", "CameratrapManager\CameratrapManager.GUI.csproj", "{CE1A118B-9869-4294-9C6B-E67DD726BAF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameratrapManager_db", "CameratrapManager_db\CameratrapManager_db.csproj", "{540E9A09-F5FE-47DD-9F28-AF9A6E98DD01}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameratrapManager.DAO", "CameratrapManager_db\CameratrapManager.DAO.csproj", "{540E9A09-F5FE-47DD-9F28-AF9A6E98DD01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameratrapManager_lib", "CameratrapManager_lib\CameratrapManager_lib.csproj", "{4BFF1929-9703-4FB2-903A-CAEC311C4592}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameratrapManager.Image", "CameratrapManager_lib\CameratrapManager.Image.csproj", "{4BFF1929-9703-4FB2-903A-CAEC311C4592}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameratrapManager.Analysis", "Cameratrap.Analysis\CameratrapManager.Analysis.csproj", "{ABDC8B73-F164-4589-A0D8-BD8606405021}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameratrapManager.Model", "CameratrapManager.Model\CameratrapManager.Model.csproj", "{7EADF2F8-BF46-43BA-B506-41733690CB6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameratrapManager.OCR", "CameratrapManager.OCR\CameratrapManager.OCR.csproj", "{3C2E2B10-766F-4354-B49C-EC20719CA9C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameratrapManager.Shape", "CameratrapManager.Shape\CameratrapManager.Shape.csproj", "{BF129930-9050-4E0E-9499-3A8438BC7C81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameratrapManager.Output", "CameratrapManager.Output\CameratrapManager.Output.csproj", "{C6989473-1C4E-4B0C-AB85-46DEB194F760}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameratrapManager.Carto", "CameratrapManager.Carto\CameratrapManager.Carto.csproj", "{FE6F40DA-9435-4702-80E7-106644E55320}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,5 +38,29 @@ Global
 		{4BFF1929-9703-4FB2-903A-CAEC311C4592}.Debug|x86.ActiveCfg = Debug|x86
 		{4BFF1929-9703-4FB2-903A-CAEC311C4592}.Release|x86.Build.0 = Release|x86
 		{4BFF1929-9703-4FB2-903A-CAEC311C4592}.Release|x86.ActiveCfg = Release|x86
+		{ABDC8B73-F164-4589-A0D8-BD8606405021}.Debug|x86.Build.0 = Debug|x86
+		{ABDC8B73-F164-4589-A0D8-BD8606405021}.Debug|x86.ActiveCfg = Debug|x86
+		{ABDC8B73-F164-4589-A0D8-BD8606405021}.Release|x86.Build.0 = Release|x86
+		{ABDC8B73-F164-4589-A0D8-BD8606405021}.Release|x86.ActiveCfg = Release|x86
+		{7EADF2F8-BF46-43BA-B506-41733690CB6F}.Debug|x86.Build.0 = Debug|x86
+		{7EADF2F8-BF46-43BA-B506-41733690CB6F}.Debug|x86.ActiveCfg = Debug|x86
+		{7EADF2F8-BF46-43BA-B506-41733690CB6F}.Release|x86.Build.0 = Release|x86
+		{7EADF2F8-BF46-43BA-B506-41733690CB6F}.Release|x86.ActiveCfg = Release|x86
+		{3C2E2B10-766F-4354-B49C-EC20719CA9C4}.Debug|x86.Build.0 = Debug|x86
+		{3C2E2B10-766F-4354-B49C-EC20719CA9C4}.Debug|x86.ActiveCfg = Debug|x86
+		{3C2E2B10-766F-4354-B49C-EC20719CA9C4}.Release|x86.Build.0 = Release|x86
+		{3C2E2B10-766F-4354-B49C-EC20719CA9C4}.Release|x86.ActiveCfg = Release|x86
+		{BF129930-9050-4E0E-9499-3A8438BC7C81}.Debug|x86.Build.0 = Debug|x86
+		{BF129930-9050-4E0E-9499-3A8438BC7C81}.Debug|x86.ActiveCfg = Debug|x86
+		{BF129930-9050-4E0E-9499-3A8438BC7C81}.Release|x86.Build.0 = Release|x86
+		{BF129930-9050-4E0E-9499-3A8438BC7C81}.Release|x86.ActiveCfg = Release|x86
+		{C6989473-1C4E-4B0C-AB85-46DEB194F760}.Debug|x86.Build.0 = Debug|x86
+		{C6989473-1C4E-4B0C-AB85-46DEB194F760}.Debug|x86.ActiveCfg = Debug|x86
+		{C6989473-1C4E-4B0C-AB85-46DEB194F760}.Release|x86.Build.0 = Release|x86
+		{C6989473-1C4E-4B0C-AB85-46DEB194F760}.Release|x86.ActiveCfg = Release|x86
+		{FE6F40DA-9435-4702-80E7-106644E55320}.Debug|x86.Build.0 = Debug|x86
+		{FE6F40DA-9435-4702-80E7-106644E55320}.Debug|x86.ActiveCfg = Debug|x86
+		{FE6F40DA-9435-4702-80E7-106644E55320}.Release|x86.Build.0 = Release|x86
+		{FE6F40DA-9435-4702-80E7-106644E55320}.Release|x86.ActiveCfg = Release|x86
 	EndGlobalSection
 EndGlobal
