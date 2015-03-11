@@ -145,18 +145,18 @@ namespace CameratrapManager
 
 				if  (newProjForm.ShowDialog()== DialogResult.OK)
 				{
-					_currentProject=newProjForm.NewProjectCreated;
+					if(newProjForm.isCreated)
+					{
+						_currentProject=newProjForm.NewProjectCreated;
+						refreshSpeciesList(_currentProject);
+						PopulateTree();
+						EnableButtons();
+					}
 //					_currentProject.SpeciesList.Add("Empty Picture");
 //					_currentProject.SpeciesList.Add("Invalid Picture");
 //					_currentProject.SpeciesList.Add("Management");
 //					_currentProject.SpeciesList.Add("Unknown");
 					
-					
-					refreshSpeciesList(_currentProject);
-					
-					PopulateTree();
-					
-					EnableButtons();
 					
 				}
 				

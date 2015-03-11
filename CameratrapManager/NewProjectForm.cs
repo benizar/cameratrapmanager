@@ -34,14 +34,17 @@ namespace CameratrapManager
 	public partial class NewProjectForm : Form
 	{			
 		
-		Project _newProjectCreated;
-		List<IPolygon> _studyArea;
-		
+		Project _newProjectCreated = null;
+		List<IPolygon> _studyArea = null;
+		bool _isCreated = false;
 		
 		public Project NewProjectCreated {
 			get { return _newProjectCreated; }
 		}
 		
+		public bool isCreated{
+			get{return _isCreated;}
+		}
 		
 		public NewProjectForm()
 		{
@@ -63,7 +66,9 @@ namespace CameratrapManager
 		void BtCreateProjectClick(object sender, EventArgs e)
 		{
 			try {
-				_newProjectCreated = new Project(txtProjectName.Text,
+				if(_studyArea != null)
+				{			
+					_newProjectCreated = new Project(txtProjectName.Text,
 			                        cmbProjectType.Text,
 			                        txtProjectCreator.Text,
 			                        txtProjectSubject.Text,
@@ -71,9 +76,13 @@ namespace CameratrapManager
 			                        DateTime.Now,
 			                        DateTime.Now,
 			                        _studyArea, Convert.ToInt16(txtGridSize.Text));
-			
-			
-				ProjectDAO.CreateNewProject(_newProjectCreated);
+					ProjectDAO.CreateNewProject(_newProjectCreated);
+					_isCreated = true;
+				}
+				else{
+					MessageBox.Show("Debe seleccionar un área de estudio para poder crear un proyecto.","Atención",MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+				}
+				
 				
 				this.Close();
 			} catch (Exception ex) {
