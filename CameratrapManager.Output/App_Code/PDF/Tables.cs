@@ -23,7 +23,7 @@ using MigraDoc.DocumentObjectModel;
 using MigraDoc.DocumentObjectModel.Tables;
 
 using CameratrapManager.Model;
-using CameratrapManager.Analysis;
+using Core.Analysis;
 using CameratrapManager.Model.Queries;
 
 

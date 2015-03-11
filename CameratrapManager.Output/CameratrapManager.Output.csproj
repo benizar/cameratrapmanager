@@ -39,14 +39,14 @@
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
   <ItemGroup>
-    <Reference Include="CameratrapManager.Analysis">
-      <HintPath>C:\CameraTrapManager\bin\CameratrapManager.Analysis.dll</HintPath>
-    </Reference>
-    <Reference Include="CameratrapManager.Carto">
-      <HintPath>C:\CameraTrapManager\bin\CameratrapManager.Carto.dll</HintPath>
-    </Reference>
     <Reference Include="CameratrapManager.Model">
       <HintPath>C:\CameraTrapManager\bin\CameratrapManager.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="Core.Analysis">
+      <HintPath>..\..\..\..\..\..\CameraTrapManager\bin\Core.Analysis.dll</HintPath>
+    </Reference>
+    <Reference Include="Core.Carto">
+      <HintPath>..\..\..\..\..\..\CameraTrapManager\bin\Core.Carto.dll</HintPath>
     </Reference>
     <Reference Include="GeoAPI">
       <HintPath>..\lib\NetTopologySuite_1.8.0.0\GeoAPI.dll</HintPath>

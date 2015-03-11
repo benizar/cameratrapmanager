@@ -24,7 +24,7 @@ using GeoAPI.Geometries;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace CameratrapManager.Carto
+namespace Core.Carto
 {
 	/// <summary>
 	/// Description of GraticuleBuilder.

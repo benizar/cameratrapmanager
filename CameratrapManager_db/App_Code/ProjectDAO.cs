@@ -22,8 +22,8 @@ using System.Drawing;
 using System.Collections.Generic;
 using System.Data.SQLite;
 using System.Resources;
-using CameratrapManager.ImageProcessing;
-using CameratrapManager.Carto;
+using Core.ImageProcessing;
+using Core.Carto;
 using CameratrapManager.Model;
 
 namespace CameratrapManager.DAO

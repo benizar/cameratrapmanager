@@ -21,7 +21,7 @@ using System.Drawing;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 
-namespace CameratrapManager.Carto
+namespace Core.Carto
 {
 	/// <summary>
 	/// Description of ConversionUtilities.

@@ -25,8 +25,8 @@ using CameratrapManager.Model;
 using CameratrapManager.Model.SampleObservations;
 using CameratrapManager.OCR;
 using CameratrapManager.DAO;
-using CameratrapManager.ImageProcessing;
-using CameratrapManager.Carto;
+using Core.ImageProcessing;
+using Core.Carto;
 
 namespace CameratrapManager
 {

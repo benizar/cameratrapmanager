@@ -24,7 +24,7 @@ using MigraDoc.DocumentObjectModel.Shapes;
 using MigraDoc.DocumentObjectModel.Shapes.Charts;
 
 using CameratrapManager.Model;
-using CameratrapManager.Analysis;
+using Core.Analysis;
 using CameratrapManager.Model.Queries;
 //using CameratrapManager_lib.CameratrapModel.SampleObservations;
 

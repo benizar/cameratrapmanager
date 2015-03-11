@@ -19,7 +19,7 @@
 using System;
 using System.Collections.Generic;
 using System.Drawing;
-using CameratrapManager.ImageProcessing;
+using Core.ImageProcessing;
 
 using tessnet2;
 
@@ -36,7 +36,7 @@ namespace CameratrapManager.OCR
 		public static string OCRImageRegion(string img, Rectangle rect)
 		{
 			try {
-				using (Bitmap image = (Bitmap)CameratrapManager.Carto.ConversionUtilities.NonLockingOpen(img))
+				using (Bitmap image = (Bitmap)Core.Carto.ConversionUtilities.NonLockingOpen(img))
 	            {            	
 	
 					Bitmap binarized = OCR_Preprocessing.PreprocessOCR(image,rect);

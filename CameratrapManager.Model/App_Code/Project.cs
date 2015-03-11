@@ -123,7 +123,7 @@ namespace CameratrapManager.Model
 		
 		private void CreateGrid(List<IPolygon> bounds, int gridSize)
 		{
-			CameratrapManager.Carto.GraticuleBuilder grid=new CameratrapManager.Carto.GraticuleBuilder(_studyArea,gridSize,gridSize);
+			Core.Carto.GraticuleBuilder grid=new Core.Carto.GraticuleBuilder(_studyArea,gridSize,gridSize);
 			_grid = grid.Graticule;
 		}
 		

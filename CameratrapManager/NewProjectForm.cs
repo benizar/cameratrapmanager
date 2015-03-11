@@ -24,7 +24,7 @@ using System.Windows.Forms;
 using CameratrapManager.Model;
 using CameratrapManager.DAO;
 using GeoAPI.Geometries;
-using CameratrapManager.Shape;
+using Core.Shape;
 
 namespace CameratrapManager
 {

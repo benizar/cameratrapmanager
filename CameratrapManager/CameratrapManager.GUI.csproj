@@ -39,17 +39,8 @@
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
   <ItemGroup>
-    <Reference Include="CameratrapManager.Analysis">
-      <HintPath>C:\CameraTrapManager\bin\CameratrapManager.Analysis.dll</HintPath>
-    </Reference>
-    <Reference Include="CameratrapManager.Carto">
-      <HintPath>C:\CameraTrapManager\bin\CameratrapManager.Carto.dll</HintPath>
-    </Reference>
     <Reference Include="CameratrapManager.DAO">
       <HintPath>C:\CameraTrapManager\bin\CameratrapManager.DAO.dll</HintPath>
-    </Reference>
-    <Reference Include="CameratrapManager.ImageProcessing">
-      <HintPath>C:\CameraTrapManager\bin\CameratrapManager.ImageProcessing.dll</HintPath>
     </Reference>
     <Reference Include="CameratrapManager.Model">
       <HintPath>C:\CameraTrapManager\bin\CameratrapManager.Model.dll</HintPath>
@@ -60,8 +51,17 @@
     <Reference Include="CameratrapManager.Output">
       <HintPath>C:\CameraTrapManager\bin\CameratrapManager.Output.dll</HintPath>
     </Reference>
-    <Reference Include="CameratrapManager.Shape">
-      <HintPath>C:\CameraTrapManager\bin\CameratrapManager.Shape.dll</HintPath>
+    <Reference Include="Core.Analysis">
+      <HintPath>..\..\..\..\..\..\CameraTrapManager\bin\Core.Analysis.dll</HintPath>
+    </Reference>
+    <Reference Include="Core.Carto">
+      <HintPath>..\..\..\..\..\..\CameraTrapManager\bin\Core.Carto.dll</HintPath>
+    </Reference>
+    <Reference Include="Core.ImageProcessing">
+      <HintPath>..\..\..\..\..\..\CameraTrapManager\bin\Core.ImageProcessing.dll</HintPath>
+    </Reference>
+    <Reference Include="Core.Shape">
+      <HintPath>..\..\..\..\..\..\CameraTrapManager\bin\Core.Shape.dll</HintPath>
     </Reference>
     <Reference Include="GeoAPI">
       <HintPath>..\lib\NetTopologySuite_1.8.0.0\GeoAPI.dll</HintPath>

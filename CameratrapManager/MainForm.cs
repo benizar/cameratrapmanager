@@ -23,14 +23,14 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
 
-using CameratrapManager.ImageProcessing;
+using Core.ImageProcessing;
 using CameratrapManager.Model;
 using CameratrapManager.OCR;
 using CameratrapManager.Model.SampleObservations;
-using CameratrapManager.Carto;
+using Core.Carto;
 using CameratrapManager.DAO;
 using CameratrapManager.Output;
-using CameratrapManager.Analysis;
+using Core.Analysis;
 
 
 namespace CameratrapManager
@@ -43,9 +43,9 @@ namespace CameratrapManager
 		
 		DataTable speciesList=new DataTable();
 		
-		Project _currentProject;
-		Station _currentStation;
-		Sample _currentSample;
+		Project _currentProject = null;
+		Station _currentStation = null;
+		Sample _currentSample = null;
 		
 		string projectsPath = System.IO.Path.GetDirectoryName( System.Reflection.Assembly.GetExecutingAssembly().Location)+ @"\\Projects\\";
 		

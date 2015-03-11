@@ -24,7 +24,7 @@ using GisSharpBlog.NetTopologySuite.Geometries;
 using GeoAPI.Geometries;
 
 using CameratrapManager.Model;
-using CameratrapManager.Analysis;
+using Core.Analysis;
 using CameratrapManager.Model.Queries;
 
 
@@ -143,7 +143,7 @@ namespace CameratrapManager.Output
 				}
 				
 				List<IPoint>projPoints=new List<IPoint>();
-				projPoints = Carto.Projections.projectGPSto23030(points);
+				projPoints = Core.Carto.Projections.projectGPSto23030(points);
 				
 				
 				GeometryCollection gc=new GeometryCollection(projPoints.ToArray());

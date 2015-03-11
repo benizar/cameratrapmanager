@@ -24,7 +24,7 @@ using System.Collections;
 using System.Collections.Generic;
 
 
-namespace CameratrapManager.Shape
+namespace Core.Shape
 {
 	/// <summary>
 	/// Description of LoadShapefile.

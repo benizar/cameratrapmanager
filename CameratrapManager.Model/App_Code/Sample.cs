@@ -22,7 +22,7 @@ using System.Drawing;
 using System.Collections;
 using System.Collections.Generic;
 using CameratrapManager.Model.SampleObservations;
-using CameratrapManager.Analysis;
+using Core.Analysis;
 
 namespace CameratrapManager.Model
 {
@@ -53,10 +53,10 @@ namespace CameratrapManager.Model
 			_horizontalResolution=photo.Metadata.HorizontalResolution;
 			_dateTime=photo.Metadata.DateTaken;
 			
-			Analysis.SunriseSunsetCalculations isDay=new Analysis.SunriseSunsetCalculations(_dateTime,lat,lon);
+			Core.Analysis.SunriseSunsetCalculations isDay=new Core.Analysis.SunriseSunsetCalculations(_dateTime,lat,lon);
 			_dayOrNight=isDay.IsDay;
 			
-			Analysis.MoonPhaseCalculations moon= new Analysis.MoonPhaseCalculations(_dateTime.ToUniversalTime() );
+			Core.Analysis.MoonPhaseCalculations moon= new Core.Analysis.MoonPhaseCalculations(_dateTime.ToUniversalTime() );
 			_moonPhase=moon.MoonPhase;
 //			_cameraFlash=photo.Metadata.f
 			

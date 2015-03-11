@@ -39,14 +39,14 @@
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
   <ItemGroup>
-    <Reference Include="CameratrapManager.Carto">
-      <HintPath>C:\CameraTrapManager\bin\CameratrapManager.Carto.dll</HintPath>
-    </Reference>
-    <Reference Include="CameratrapManager.ImageProcessing">
-      <HintPath>C:\CameraTrapManager\bin\CameratrapManager.ImageProcessing.dll</HintPath>
-    </Reference>
     <Reference Include="CameratrapManager.Model">
       <HintPath>C:\CameraTrapManager\bin\CameratrapManager.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="Core.Carto">
+      <HintPath>..\..\..\..\..\..\CameraTrapManager\bin\Core.Carto.dll</HintPath>
+    </Reference>
+    <Reference Include="Core.ImageProcessing">
+      <HintPath>..\..\..\..\..\..\CameraTrapManager\bin\Core.ImageProcessing.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">

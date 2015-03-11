@@ -39,11 +39,11 @@
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
   <ItemGroup>
-    <Reference Include="CameratrapManager.Carto">
-      <HintPath>C:\CameraTrapManager\bin\CameratrapManager.Carto.dll</HintPath>
+    <Reference Include="Core.Carto">
+      <HintPath>..\..\..\..\..\..\CameraTrapManager\bin\Core.Carto.dll</HintPath>
     </Reference>
-    <Reference Include="CameratrapManager.ImageProcessing">
-      <HintPath>C:\CameraTrapManager\bin\CameratrapManager.ImageProcessing.dll</HintPath>
+    <Reference Include="Core.ImageProcessing">
+      <HintPath>..\..\..\..\..\..\CameraTrapManager\bin\Core.ImageProcessing.dll</HintPath>
     </Reference>
     <Reference Include="Fotofly">
       <HintPath>..\lib\FotoFly_0.6.0.0\Fotofly.dll</HintPath>

@@ -18,7 +18,7 @@
 
 using System;
 
-namespace CameratrapManager.Analysis
+namespace Core.Analysis
 {
 	/// <summary>
 	/// Description of MoonPhase.
