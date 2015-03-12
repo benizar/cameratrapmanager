@@ -116,7 +116,6 @@
     <EmbeddedResource Include="NewStationForm.resx">
       <DependentUpon>NewStationForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="..\CameratrapManager_db\Resources\Images.resx" />
     <EmbeddedResource Include="Resources\Images.resx" />
   </ItemGroup>
   <ItemGroup>

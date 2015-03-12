@@ -2,23 +2,23 @@
 Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
 # SharpDevelop 3.2.1.6466
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameratrapManager.GUI", "CameratrapManager\CameratrapManager.GUI.csproj", "{CE1A118B-9869-4294-9C6B-E67DD726BAF5}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameratrapManager.DAO", "CameratrapManager_db\CameratrapManager.DAO.csproj", "{540E9A09-F5FE-47DD-9F28-AF9A6E98DD01}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.ImageProcessing", "CameratrapManager_lib\Core.ImageProcessing.csproj", "{4BFF1929-9703-4FB2-903A-CAEC311C4592}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Analysis", "Cameratrap.Analysis\Core.Analysis.csproj", "{ABDC8B73-F164-4589-A0D8-BD8606405021}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameratrapManager.Model", "CameratrapManager.Model\CameratrapManager.Model.csproj", "{7EADF2F8-BF46-43BA-B506-41733690CB6F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameratrapManager.OCR", "CameratrapManager.OCR\CameratrapManager.OCR.csproj", "{3C2E2B10-766F-4354-B49C-EC20719CA9C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Shape", "CameratrapManager.Shape\Core.Shape.csproj", "{BF129930-9050-4E0E-9499-3A8438BC7C81}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameratrapManager.Output", "CameratrapManager.Output\CameratrapManager.Output.csproj", "{C6989473-1C4E-4B0C-AB85-46DEB194F760}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Carto", "CameratrapManager.Carto\Core.Carto.csproj", "{FE6F40DA-9435-4702-80E7-106644E55320}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameratrapManager.DAO", "CameratrapManager.DAO\CameratrapManager.DAO.csproj", "{540E9A09-F5FE-47DD-9F28-AF9A6E98DD01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.ImageProcessing", "Core.ImageProcessing\Core.ImageProcessing.csproj", "{4BFF1929-9703-4FB2-903A-CAEC311C4592}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Shape", "Core.Shape\Core.Shape.csproj", "{BF129930-9050-4E0E-9499-3A8438BC7C81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Analysis", "Core.Analysis\Core.Analysis.csproj", "{ABDC8B73-F164-4589-A0D8-BD8606405021}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Carto", "Core.Carto\Core.Carto.csproj", "{FE6F40DA-9435-4702-80E7-106644E55320}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameratrapManager.GUI", "CameratrapManager.GUI\CameratrapManager.GUI.csproj", "{CE1A118B-9869-4294-9C6B-E67DD726BAF5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,22 +26,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CE1A118B-9869-4294-9C6B-E67DD726BAF5}.Debug|x86.Build.0 = Debug|x86
-		{CE1A118B-9869-4294-9C6B-E67DD726BAF5}.Debug|x86.ActiveCfg = Debug|x86
-		{CE1A118B-9869-4294-9C6B-E67DD726BAF5}.Release|x86.Build.0 = Release|x86
-		{CE1A118B-9869-4294-9C6B-E67DD726BAF5}.Release|x86.ActiveCfg = Release|x86
-		{540E9A09-F5FE-47DD-9F28-AF9A6E98DD01}.Debug|x86.Build.0 = Debug|x86
-		{540E9A09-F5FE-47DD-9F28-AF9A6E98DD01}.Debug|x86.ActiveCfg = Debug|x86
-		{540E9A09-F5FE-47DD-9F28-AF9A6E98DD01}.Release|x86.Build.0 = Release|x86
-		{540E9A09-F5FE-47DD-9F28-AF9A6E98DD01}.Release|x86.ActiveCfg = Release|x86
-		{4BFF1929-9703-4FB2-903A-CAEC311C4592}.Debug|x86.Build.0 = Debug|x86
-		{4BFF1929-9703-4FB2-903A-CAEC311C4592}.Debug|x86.ActiveCfg = Debug|x86
-		{4BFF1929-9703-4FB2-903A-CAEC311C4592}.Release|x86.Build.0 = Release|x86
-		{4BFF1929-9703-4FB2-903A-CAEC311C4592}.Release|x86.ActiveCfg = Release|x86
-		{ABDC8B73-F164-4589-A0D8-BD8606405021}.Debug|x86.Build.0 = Debug|x86
-		{ABDC8B73-F164-4589-A0D8-BD8606405021}.Debug|x86.ActiveCfg = Debug|x86
-		{ABDC8B73-F164-4589-A0D8-BD8606405021}.Release|x86.Build.0 = Release|x86
-		{ABDC8B73-F164-4589-A0D8-BD8606405021}.Release|x86.ActiveCfg = Release|x86
 		{7EADF2F8-BF46-43BA-B506-41733690CB6F}.Debug|x86.Build.0 = Debug|x86
 		{7EADF2F8-BF46-43BA-B506-41733690CB6F}.Debug|x86.ActiveCfg = Debug|x86
 		{7EADF2F8-BF46-43BA-B506-41733690CB6F}.Release|x86.Build.0 = Release|x86
@@ -50,17 +34,33 @@ Global
 		{3C2E2B10-766F-4354-B49C-EC20719CA9C4}.Debug|x86.ActiveCfg = Debug|x86
 		{3C2E2B10-766F-4354-B49C-EC20719CA9C4}.Release|x86.Build.0 = Release|x86
 		{3C2E2B10-766F-4354-B49C-EC20719CA9C4}.Release|x86.ActiveCfg = Release|x86
-		{BF129930-9050-4E0E-9499-3A8438BC7C81}.Debug|x86.Build.0 = Debug|x86
-		{BF129930-9050-4E0E-9499-3A8438BC7C81}.Debug|x86.ActiveCfg = Debug|x86
-		{BF129930-9050-4E0E-9499-3A8438BC7C81}.Release|x86.Build.0 = Release|x86
-		{BF129930-9050-4E0E-9499-3A8438BC7C81}.Release|x86.ActiveCfg = Release|x86
 		{C6989473-1C4E-4B0C-AB85-46DEB194F760}.Debug|x86.Build.0 = Debug|x86
 		{C6989473-1C4E-4B0C-AB85-46DEB194F760}.Debug|x86.ActiveCfg = Debug|x86
 		{C6989473-1C4E-4B0C-AB85-46DEB194F760}.Release|x86.Build.0 = Release|x86
 		{C6989473-1C4E-4B0C-AB85-46DEB194F760}.Release|x86.ActiveCfg = Release|x86
+		{540E9A09-F5FE-47DD-9F28-AF9A6E98DD01}.Debug|x86.Build.0 = Debug|x86
+		{540E9A09-F5FE-47DD-9F28-AF9A6E98DD01}.Debug|x86.ActiveCfg = Debug|x86
+		{540E9A09-F5FE-47DD-9F28-AF9A6E98DD01}.Release|x86.Build.0 = Release|x86
+		{540E9A09-F5FE-47DD-9F28-AF9A6E98DD01}.Release|x86.ActiveCfg = Release|x86
+		{4BFF1929-9703-4FB2-903A-CAEC311C4592}.Debug|x86.Build.0 = Debug|x86
+		{4BFF1929-9703-4FB2-903A-CAEC311C4592}.Debug|x86.ActiveCfg = Debug|x86
+		{4BFF1929-9703-4FB2-903A-CAEC311C4592}.Release|x86.Build.0 = Release|x86
+		{4BFF1929-9703-4FB2-903A-CAEC311C4592}.Release|x86.ActiveCfg = Release|x86
+		{BF129930-9050-4E0E-9499-3A8438BC7C81}.Debug|x86.Build.0 = Debug|x86
+		{BF129930-9050-4E0E-9499-3A8438BC7C81}.Debug|x86.ActiveCfg = Debug|x86
+		{BF129930-9050-4E0E-9499-3A8438BC7C81}.Release|x86.Build.0 = Release|x86
+		{BF129930-9050-4E0E-9499-3A8438BC7C81}.Release|x86.ActiveCfg = Release|x86
+		{ABDC8B73-F164-4589-A0D8-BD8606405021}.Debug|x86.Build.0 = Debug|x86
+		{ABDC8B73-F164-4589-A0D8-BD8606405021}.Debug|x86.ActiveCfg = Debug|x86
+		{ABDC8B73-F164-4589-A0D8-BD8606405021}.Release|x86.Build.0 = Release|x86
+		{ABDC8B73-F164-4589-A0D8-BD8606405021}.Release|x86.ActiveCfg = Release|x86
 		{FE6F40DA-9435-4702-80E7-106644E55320}.Debug|x86.Build.0 = Debug|x86
 		{FE6F40DA-9435-4702-80E7-106644E55320}.Debug|x86.ActiveCfg = Debug|x86
 		{FE6F40DA-9435-4702-80E7-106644E55320}.Release|x86.Build.0 = Release|x86
 		{FE6F40DA-9435-4702-80E7-106644E55320}.Release|x86.ActiveCfg = Release|x86
+		{CE1A118B-9869-4294-9C6B-E67DD726BAF5}.Debug|x86.Build.0 = Debug|x86
+		{CE1A118B-9869-4294-9C6B-E67DD726BAF5}.Debug|x86.ActiveCfg = Debug|x86
+		{CE1A118B-9869-4294-9C6B-E67DD726BAF5}.Release|x86.Build.0 = Release|x86
+		{CE1A118B-9869-4294-9C6B-E67DD726BAF5}.Release|x86.ActiveCfg = Release|x86
 	EndGlobalSection
 EndGlobal
