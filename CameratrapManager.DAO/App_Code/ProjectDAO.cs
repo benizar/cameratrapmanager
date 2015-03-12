@@ -28,16 +28,15 @@ using CameratrapManager.Model;
 
 namespace CameratrapManager.DAO
 {
-
 	/// <summary>
 	/// 
 	/// </summary>
 	public class ProjectDAO
 	{
 		
-		string projectsPath = System.IO.Path.GetDirectoryName( System.Reflection.Assembly.GetExecutingAssembly().Location);
-		
-		
+		string projectsPath = System.IO.Path.GetDirectoryName(
+			System.Reflection.Assembly.GetExecutingAssembly().Location);
+				
 		public static void CreateNewProject(Project newProject)
 		{
 			try {
