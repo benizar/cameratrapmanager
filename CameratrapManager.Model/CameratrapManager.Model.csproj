@@ -1,0 +1,88 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{7EADF2F8-BF46-43BA-B506-41733690CB6F}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <RootNamespace>CameratrapManager.Model</RootNamespace>
+    <AssemblyName>CameratrapManager.Model</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SourceAnalysisOverrideSettingsFile>C:\Users\miguel\AppData\Roaming\ICSharpCode/SharpDevelop3.0\Settings.SourceAnalysis</SourceAnalysisOverrideSettingsFile>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <NoStdLib>False</NoStdLib>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <BaseAddress>4194304</BaseAddress>
+    <FileAlignment>4096</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>C:\CameraTrapManager\bin\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="CameratrapManager.OCR">
+      <HintPath>C:\CameraTrapManager\bin\CameratrapManager.OCR.dll</HintPath>
+    </Reference>
+    <Reference Include="Core.Analysis">
+      <HintPath>..\..\..\..\..\..\CameraTrapManager\bin\Core.Analysis.dll</HintPath>
+    </Reference>
+    <Reference Include="Core.Carto">
+      <HintPath>..\..\..\..\..\..\CameraTrapManager\bin\Core.Carto.dll</HintPath>
+    </Reference>
+    <Reference Include="Fotofly">
+      <HintPath>..\lib\FotoFly_0.6.0.0\Fotofly.dll</HintPath>
+    </Reference>
+    <Reference Include="GeoAPI">
+      <HintPath>..\lib\NetTopologySuite_1.8.0.0\GeoAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Code\Enums.cs" />
+    <Compile Include="App_Code\General_queries.cs" />
+    <Compile Include="App_Code\Project.cs" />
+    <Compile Include="App_Code\Sample.cs" />
+    <Compile Include="App_Code\SampleObservations\BoolObservation.cs" />
+    <Compile Include="App_Code\SampleObservations\DoubleObservation.cs" />
+    <Compile Include="App_Code\SampleObservations\IntegerObservation.cs" />
+    <Compile Include="App_Code\SampleObservations\Observation.cs" />
+    <Compile Include="App_Code\SampleObservations\SpeciesObservation.cs" />
+    <Compile Include="App_Code\SampleObservations\StringObservation.cs" />
+    <Compile Include="App_Code\Station.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="App_Code\Queries\SpeciesStats.cs" />
+    <Compile Include="App_Code\Queries\StationStats.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Code" />
+    <Folder Include="App_Code\SampleObservations" />
+    <Folder Include="App_Code\Queries" />
+  </ItemGroup>
+</Project>
